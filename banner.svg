@@ -1,0 +1,29 @@
+<svg width="800" height="120" viewBox="0 0 800 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00ffc2" />
+      <stop offset="50%" stop-color="#007cf0" />
+      <stop offset="100%" stop-color="#00ffc2" />
+    </linearGradient>
+    <linearGradient id="gradAnim" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00ffc2">
+        <animate attributeName="offset" values="-1;1" dur="3s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#007cf0">
+        <animate attributeName="offset" values="0;2" dur="3s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#00ffc2">
+        <animate attributeName="offset" values="1;3" dur="3s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="120" fill="#0a1a2a" rx="15" ry="15" />
+
+  <text x="50%" y="45" dominant-baseline="middle" text-anchor="middle" font-family="Fira Code, monospace" font-weight="700" font-size="36" fill="url(#gradAnim)">
+    👋 Hi, I'm Shoryan Chahar
+  </text>
+  <text x="50%" y="85" dominant-baseline="middle" text-anchor="middle" font-family="Fira Code, monospace" font-weight="500" font-size="20" fill="#00ffc2" opacity="0.8">
+    Developer | AI Researcher | App Creator | Indian Innovator
+  </text>
+</svg>
